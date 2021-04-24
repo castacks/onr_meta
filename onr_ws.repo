@@ -1,0 +1,5 @@
+repositories:
+  airsimros:
+    type: git
+    url: git@bitbucket.org:castacks/airsimros.git
+    version: master
