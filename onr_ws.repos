@@ -2,4 +2,8 @@ repositories:
   airsimros:
     type: git
     url: git@bitbucket.org:castacks/airsimros.git
+    version: onr_recon
+  onr_meta:
+    type: git
+    url: git@bitbucket.org:castacks/onr_meta.git
     version: master

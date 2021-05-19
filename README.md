@@ -16,7 +16,7 @@ Then we can setup the workspace with
 mkdir -p ~/onr_ws/src
 cd ~/onr_ws/src
 git clone git@bitbucket.org:castacks/onr_meta.git
-vcs import < onr_meta/onr_ws.repo
+vcs import < onr_meta/onr_ws.repos
 ```
 
 Vcs has many tools for working with multiple repos. For example, you can run commands such as ```vcs status``` which runs `git status` in all repos. 
