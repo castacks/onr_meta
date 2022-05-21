@@ -6,7 +6,11 @@ First install vstool
 
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-key 0xAB17C654
+# keyserverlocation deprecated in 2021. Use .ubuntu.com
+# sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-key 0xAB17C654
+#
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key 0xAB17C654
+#
 sudo apt-get update
 sudo apt-get install python3-vcstool
 ```
